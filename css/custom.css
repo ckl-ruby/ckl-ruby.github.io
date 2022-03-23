@@ -26,3 +26,40 @@
     #page-header::before{
       background: transparent!important;
       }
+
+      @font-face{
+        font-family:'Candyhome' ;  /* 字体名自定义即可 */
+        src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
+        font-display : swap;
+      }
+      
+      @font-face{
+        font-family:'Zhuzi' ;  /* 字体名自定义即可 */
+        src:url('/fonts/ZhuZiAWan.ttf'); /* 字体文件路径 */
+        font-display : swap;
+      }
+      
+      h1#site-title {
+        font-family: 'Candyhome', sans-serif;
+        font-size: 55px !important;
+      }
+
+      p {
+        font-family: 'Zhuzi', sans-serif;
+        font-size: 17px !important;
+      }
+
+      span#subtitle {
+        font-family: 'Zhuzi', sans-serif;
+      }
+      
+      a.category-list-link {
+        font-size: 19px !important;
+      }
+      a.article.title {
+        font-size: 28px !important;
+      }
+      div.content {
+        font-size: 17px !important;
+      }
+      
