@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Latex笔记</title>
+      <link href="/2022/03/25/Latex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/latex%20learning/"/>
+      <url>/2022/03/25/Latex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/latex%20learning/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本格式">基本格式</h2><blockquote><p>\documentclass{article}<br>\title{First Tex File}<br>\author{Andy}<br>\date{\today}</p><p>\usepackage{ctex}<br>%正文区<br>\begin{document}<br>\maketitle%使得导言区的设置生效<br>hello world!<br>%在生成的文档中增加换行，需要在源码中隔一行<br>函数<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span>的定义如下：$f(x)=3x^2+x-1$</p><p>函数<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span>的定义如下：$$f(x)=3x^2+x-1$$(另起一行）<br>end{document}</p></blockquote><h2 id="中文处理方法">中文处理方法</h2><blockquote><p>\documentclass{article}%自定义的新命令<br>\newcommand\degree{^\circ}%正文区使用了自定义的命令\degree，circ表示一个圆圈</p><p>\title{\heiti 勾股定理}%指定黑体字体<br>\author{\kaishu 毕达哥拉斯}%指定楷书字体<br>\date{\today}</p><p>\usepackage{ctex}%显示中文需要添加该指令</p><p>%正文区<br>\begin{document}<br>\maketitle%使得导言区的设置生效<br>符号语言表述：设直角三角形$ABC<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo separator="true">,</mo><mtext>其中</mtext><mi mathvariant="normal">∠</mi><mi>C</mi><mo>=</mo><mn>90</mn><mi mathvariant="normal">°</mi></mrow><annotation encoding="application/x-tex">,其中\angle C=90\degree</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8867em;vertical-align:-0.1944em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord cjk_fallback">其中</span><span class="mord">∠</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">90°</span></span></span></span>,则有：<br>\begin{equation} %表示带编号的行内公式<br>AB^2=BC^2+AC^2<br>\end{equation}<br>\end{document}</p></blockquote><p>\begin{equation}<br>AB^2=BC^2+AC^2<br>\end{equation}</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Coding </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Latex </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>代码演示</title>
       <link href="/2022/03/22/ceshi/"/>
       <url>/2022/03/22/ceshi/</url>
