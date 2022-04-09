@@ -4,34 +4,7 @@
   
     
     <entry>
-      <title>牛顿插值&amp;三次样条&amp;切比雪夫&amp;观察龙格现象</title>
-      <link href="/2022/04/09/%E7%89%9B%E9%A1%BF%E6%8F%92%E5%80%BC&amp;%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB&amp;%E8%A7%82%E5%AF%9F%E9%BE%99%E6%A0%BC%E7%8E%B0%E8%B1%A1/"/>
-      <url>/2022/04/09/%E7%89%9B%E9%A1%BF%E6%8F%92%E5%80%BC&amp;%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB&amp;%E8%A7%82%E5%AF%9F%E9%BE%99%E6%A0%BC%E7%8E%B0%E8%B1%A1/</url>
-      
-        <content type="html"><![CDATA[<div class="row">    <embed src="https://wty-yy.github.io/file/Spline_Newton.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> Mathmatics </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> MATLAB </tag>
-            
-            <tag> 数值分析 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Latex学习笔记</title>
+      <title>Python编程从入门到实践</title>
       <link href="/2022/04/08/Python%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0/"/>
       <url>/2022/04/08/Python%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0/</url>
       
@@ -73,6 +46,33 @@
         <tags>
             
             <tag> MATLAB </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>牛顿插值&amp;三次样条&amp;切比雪夫&amp;观察龙格现象</title>
+      <link href="/2022/04/06/%E7%89%9B%E9%A1%BF%E6%8F%92%E5%80%BC&amp;%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB&amp;%E8%A7%82%E5%AF%9F%E9%BE%99%E6%A0%BC%E7%8E%B0%E8%B1%A1/"/>
+      <url>/2022/04/06/%E7%89%9B%E9%A1%BF%E6%8F%92%E5%80%BC&amp;%E4%B8%89%E6%AC%A1%E6%A0%B7%E6%9D%A1&amp;%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB&amp;%E8%A7%82%E5%AF%9F%E9%BE%99%E6%A0%BC%E7%8E%B0%E8%B1%A1/</url>
+      
+        <content type="html"><![CDATA[<p>这次数值分析报告如下，要求是用MATLAB实现构建牛顿插值多项式，三次样条插值多项式，切比雪夫零点构成的多项式并观察在牛顿插值多项式高次情形下的龙格现象(虽然MATLAB里有成熟的插值工具，但自己掌握思想后实现一遍总归是没有坏处的吧，我想）<br>感觉MATLAB不用main函数的话写函数要同时开好多个窗口好麻烦的说。。。最近各种事情忙得昏天黑地，不过每天也过得很充实，还发现了新神作《文学少女》(后悔高考前没遇到文少，不然我高考语文肯定还能提10分，确信)，看啥时候有空写个书评吧（笑）<br><div class="row">    <embed src="https://ckl-ruby.xyz/file/Newton.pdf" width="100%" height="550" type="application/pdf"></div></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Mathmatics </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MATLAB </tag>
+            
+            <tag> 数值分析 </tag>
             
         </tags>
       
