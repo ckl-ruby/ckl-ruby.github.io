@@ -4,11 +4,42 @@
   
     
     <entry>
+      <title>数据结构栈与队列笔记</title>
+      <link href="/2022/04/18/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97%E7%AC%94%E8%AE%B0/"/>
+      <url>/2022/04/18/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h1><hr><p>栈和队列与线性表的不同之处在于它们的插入和删除操作均受某种限制<br><img src="/img/栈与队列笔记/Snipaste_2022-04-18_09-47-59.png" alt=""><br><img src="/img/栈与队列笔记/Snipaste_2022-04-18_09-52-14.png" alt=""></p><h2 id="顺序栈"><a href="#顺序栈" class="headerlink" title="顺序栈"></a>顺序栈</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Coding </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C++ </tag>
+            
+            <tag> 线性栈 </tag>
+            
+            <tag> 队列 </tag>
+            
+            <tag> 数据结构笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python编程从入门到实践</title>
       <link href="/2022/04/08/Python%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0/"/>
       <url>/2022/04/08/Python%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<h1 id="变量和简单的数据类型"><a href="#变量和简单的数据类型" class="headerlink" title="变量和简单的数据类型"></a>变量和简单的数据类型</h1><hr><h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p><strong>name.upper()</strong>:将字符串全部改为大写</p><p><strong>name.lower()</strong>:将字符串全部改为小写</p><p><strong>name.title()</strong>:将空格后的首字母大写</p><p><strong>f字符串</strong>:在字符串中使用变量的值，例如first_name=”asda”   last_name=”love” 则full_name=f”{first_name} {last_name}”<br>当然f变量中也可直接加字符,例如message=f”Hello,{full_name.title()}!”</p><p><strong>制表符与换行符</strong>:\t制表符（占位4个字母）\n换行符</p><p><strong>favorite.rstrip()</strong>:删除字符串末尾多余空白  <strong>.lstrip()</strong>:删除开头空白 <strong>.strip()</strong>:删除字符串两端空白</p><h2 id="数"><a href="#数" class="headerlink" title="数"></a>数</h2><p>Python中使用**表示乘方运算<br>在书写很大的数时，可以使用下划线将数字分组,例如universe_age=14_000_000_000 python不会打印其中下划线</p><h2 id="列表简介"><a href="#列表简介" class="headerlink" title="列表简介"></a>列表简介</h2><p>例如定义bicycles=[‘trek’,’cannondale’,’redline’,’specialized’]<br>则bicycles[1]是’cannondale’ &ensp; bicycles[-1]是’specialized’</p><p><strong>.append()</strong>:可以在列表末尾添加元素,例如 bicycles.append(‘giant’)可将’giant’添加到列表末尾</p><p><strong>.insert(a,s)</strong>：表示在列表的a位置插入s元素</p><p><strong>del bicycles[1]</strong>:即删除列表bicycles的第二个元素</p><p><strong>bicycles.pop()</strong>:可以弹出列表的最后一个元素 &ensp; 也可用 <strong>.pop(a)</strong>弹出任意一个元素</p><p><strong>bicycles.remove(‘reline’)</strong>: 可以删除列表中指定元素的值（注意当相同的值有多个时，只删除第一个）</p><p><strong>.sort()</strong>: 可以永久性地修改列表的排列顺序 &ensp;若只想临时排序而不想更改原列表的值，可以用 <strong>.sorted()</strong>  &emsp; 若想要反向排序，可用 <strong>.sort(reverse=True)</strong></p><p><strong>.reverse()</strong>:反转列表</p><p><strong>len()</strong>:获取列表长度</p><h2 id="操作列表"><a href="#操作列表" class="headerlink" title="操作列表"></a>操作列表</h2><p>最简单的利用for循环打印所有名字</p><blockquote><p>magicians</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>使用python安装库，先cd到pip所在目录下，再用.\pip install 安装所需要的库</p><h1 id="变量和简单的数据类型"><a href="#变量和简单的数据类型" class="headerlink" title="变量和简单的数据类型"></a>变量和简单的数据类型</h1><hr><h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p><strong>name.upper()</strong>:将字符串全部改为大写</p><p><strong>name.lower()</strong>:将字符串全部改为小写</p><p><strong>name.title()</strong>:将空格后的首字母大写</p><p><strong>f字符串</strong>:在字符串中使用变量的值，例如first_name=”asda”   last_name=”love” 则full_name=f”{first_name} {last_name}”<br>当然f变量中也可直接加字符,例如message=f”Hello,{full_name.title()}!”</p><p><strong>制表符与换行符</strong>:\t制表符（占位4个字母）\n换行符</p><p><strong>favorite.rstrip()</strong>:删除字符串末尾多余空白  <strong>.lstrip()</strong>:删除开头空白 <strong>.strip()</strong>:删除字符串两端空白</p><h2 id="数"><a href="#数" class="headerlink" title="数"></a>数</h2><p>Python中使用**表示乘方运算<br>在书写很大的数时，可以使用下划线将数字分组,例如universe_age=14_000_000_000 python不会打印其中下划线</p><h2 id="列表简介"><a href="#列表简介" class="headerlink" title="列表简介"></a>列表简介</h2><p>例如定义bicycles=[‘trek’,’cannondale’,’redline’,’specialized’]<br>则bicycles[1]是’cannondale’ &ensp; bicycles[-1]是’specialized’</p><p><strong>.append()</strong>:可以在列表末尾添加元素,例如 bicycles.append(‘giant’)可将’giant’添加到列表末尾</p><p><strong>.insert(a,s)</strong>：表示在列表的a位置插入s元素</p><p><strong>del bicycles[1]</strong>:即删除列表bicycles的第二个元素</p><p><strong>bicycles.pop()</strong>:可以弹出列表的最后一个元素 &ensp; 也可用 <strong>.pop(a)</strong>弹出任意一个元素</p><p><strong>bicycles.remove(‘reline’)</strong>: 可以删除列表中指定元素的值（注意当相同的值有多个时，只删除第一个）</p><p><strong>.sort()</strong>: 可以永久性地修改列表的排列顺序 &ensp;若只想临时排序而不想更改原列表的值，可以用 <strong>.sorted()</strong>  &emsp; 若想要反向排序，可用 <strong>.sort(reverse=True)</strong></p><p><strong>.reverse()</strong>:反转列表</p><p><strong>len()</strong>:获取列表长度</p><h2 id="操作列表"><a href="#操作列表" class="headerlink" title="操作列表"></a>操作列表</h2><p>最简单的利用for循环打印所有名字</p><blockquote><p>magicians</p></blockquote>]]></content>
       
       
       <categories>
@@ -81,7 +112,7 @@
     
     
     <entry>
-      <title>双链表基本操作</title>
+      <title>数据结构线性表笔记</title>
       <link href="/2022/03/27/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%AC%94%E8%AE%B0/"/>
       <url>/2022/03/27/%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%AC%94%E8%AE%B0/</url>
       
@@ -99,13 +130,13 @@
             
             <tag> C++ </tag>
             
+            <tag> 数据结构笔记 </tag>
+            
             <tag> 线性表 </tag>
             
             <tag> 单链表 </tag>
             
             <tag> 双链表 </tag>
-            
-            <tag> 数据结构笔记 </tag>
             
         </tags>
       
